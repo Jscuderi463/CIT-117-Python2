@@ -1,5 +1,5 @@
 # Author: Joseph Scuderi
-# Due Date: 12/8/2024
+# Due Date: 5/11/2025
 # Sql Interaction Assignment
 
 import sqlite3
@@ -16,7 +16,7 @@ try:
     dbConnection.execute(sCreateTable)
     print(sCreateTable)
 
-    sCreateTable = "Create Table SocialSecurity(Year int, Minimun rael)"
+    sCreateTable = "Create Table SocialSecurity(Year int, Minimun real)"
     dbConnection.execute(sCreateTable)
     print(sCreateTable)
 
